@@ -3,8 +3,8 @@ Code for the paper - "Learning to reason over visual objects"
 
 ## Requirements
 
-# I-RAVEN
+## I-RAVEN
 
-# PGM
+## PGM
 
-# CLEVR-Matrices
+## CLEVR-Matrices
