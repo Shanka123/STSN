@@ -14,8 +14,12 @@ Official repository for the paper - "[Learning to reason over visual objects](ht
 * einops==0.4.1
 
 ## I-RAVEN
-You can generate the dataset using the code from the [official repository](https://github.com/husheng12345/SRAN) or download it from [here](https://drive.google.com/file/d/1SxhImd29PLtlvqXAhlkH-CVDfFRzcK7y/view?usp=share_link)
+You can generate the dataset using the code from the [official repository](https://github.com/husheng12345/SRAN) or download it from [here](https://drive.google.com/file/d/1SxhImd29PLtlvqXAhlkH-CVDfFRzcK7y/view?usp=share_link).
 
+
+
+
+To train on this dataset run the folowing command - `git status` 
 ## PGM
 
 ## CLEVR-Matrices
