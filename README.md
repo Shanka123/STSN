@@ -52,7 +52,7 @@ Download the data from [here](https://dataspace.princeton.edu/handle/88435/dsp01
 
 To train on this dataset, we used a cluster with multiple nodes (2) and multiple gpus per node (4), and submitting scripts (`clevr_job.slurm`) to the SLURM job scheduler.
 
-You might have to change lines 4-9 depending on your cluster specifications. Default settings are for training on eight 80GB A100 GPUs across 2 nodes.
+You might have to change lines 4-9 of `clevr_job.slurm` depending on your cluster specifications. Default settings are for training on eight 80GB A100 GPUs across 2 nodes.
 
 Specify the path to the dataset, path to save the model, and run number (integer in string format) in the following line of `clevr_job.slurm`
 
