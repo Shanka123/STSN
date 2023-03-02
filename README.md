@@ -44,7 +44,7 @@ if i < opt.warmup_steps:
 else:
  learning_rate = opt.learning_rate
 ```
-with `learning_rate = opt.learning_rate`, and specify `--model_checkpoint <PATH-TO-SAVED-MODEL-CHECKPOINT>` in `pgm_job.slurm`
+with `learning_rate = opt.learning_rate`, and specify `--model_checkpoint=<PATH-TO-SAVED-MODEL-CHECKPOINT>` in `pgm_job.slurm`
 
 ## CLEVR-Matrices
 
