@@ -60,3 +60,13 @@ Specify the path to the dataset, path to save the model, and run number (integer
 
 To train run `$ sbatch clevr_job.slurm`
 
+## Citation
+
+We thank you for showing interest in our work. If our work was beneficial for you, please consider citing us using:
+```
+@inproceedings{mondallearning,
+  title={Learning to reason over visual objects},
+  author={Mondal, Shanka Subhra and Webb, Taylor Whittington and Cohen, Jonathan},
+  booktitle={International Conference on Learning Representations}
+}
+```
