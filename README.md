@@ -64,9 +64,11 @@ To train run `$ sbatch clevr_job.slurm`
 
 We thank you for showing interest in our work. If our work was beneficial for you, please consider citing us using:
 ```
-@inproceedings{mondallearning,
-  title={Learning to reason over visual objects},
-  author={Mondal, Shanka Subhra and Webb, Taylor Whittington and Cohen, Jonathan},
-  booktitle={International Conference on Learning Representations}
+@inproceedings{
+mondal2023learning,
+title={Learning to reason over visual objects},
+author={Shanka Subhra Mondal and Taylor Whittington Webb and Jonathan Cohen},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023}
 }
 ```
