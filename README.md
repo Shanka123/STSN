@@ -21,6 +21,8 @@ You can generate the dataset using the code from the [official repository](https
 
 To train on this dataset on a single 40GB A100 GPU, run the folowing command - `$ CUDA_VISIBLE_DEVICES=0 python train_slot_transformer_raven.py --batch_size 16 --img_size 80 --num_epochs 500 --run <RUN-NO-STR> --data <PATH-TO-DATASET> --save_path <PATH-TO-SAVE-MODEL>` 
 
+The pretrained model can be found at `pretrained models/stsn_iraven_allconfigs_best.pth.tar`
+
 ## PGM
 
 Download the data from the [official repository](https://github.com/deepmind/abstract-reasoning-matrices).
@@ -46,6 +48,8 @@ else:
 ```
 with `learning_rate = opt.learning_rate`, and specify `--model_checkpoint=<PATH-TO-SAVED-MODEL-CHECKPOINT>` in `pgm_job.slurm`
 
+The pretrained model for the neutral regime can be found at `pretrained models/stsn_pgm_neutral_best.pth.tar`
+
 ## CLEVR-Matrices
 
 Download the data from [here](https://dataspace.princeton.edu/handle/88435/dsp01fq977z011).
@@ -59,6 +63,8 @@ Specify the path to the dataset, path to save the model, and run number (integer
 `srun python train_slot_transformer_clevr_multigpu.py --batch_size=8  --num_epochs=200 --run=<RUN-NO> --data=<PATH-TO-DATASET> --save_path=<PATH-TO-SAVE-MODEL> `
 
 To train run `$ sbatch clevr_job.slurm`
+
+The pretrained model can be found at `pretrained models/stsn_clevr_matrices_allprobtypes_best.pth.tar`
 
 ## Citation
 
